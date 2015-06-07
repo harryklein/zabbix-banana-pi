@@ -1,0 +1,2 @@
+# Add in /etc/sudoers via visudo
+zabbix  ALL=(ALL) NOPASSWD:/usr/bin/cpufreq-info
