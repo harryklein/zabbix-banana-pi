@@ -1,17 +1,18 @@
 # zabbix-banana-pi
 
-Templets zum Überwachen eines Banana-Pi mit Hilfe von Zabbix http://www.zabbix.com/
+Templets zum Überwachen eines Banana-Pi mit Hilfe von Zabbix http://www.zabbix.com/ Ermittelt werden Speed der CPUs, Temperatur der CPU und Spannung und Strom der Stromversorgung.
 
-Quelle: 
+Quelle: http://znil.net/index.php?title=Temperatur_/_Spannung_etc._des_Banana_Pi_selbst_auslesen
 
 ## CPU
-Informationen 
-zabbix_template_banana_pi_cpu.xml  
+Informationen zum Speed der CPUs und Temperator der CPU
+
+Template: server/zabbix_template_banana_pi_cpu.xml  
 
 ## Spannungsversorgung
 Informationen zur Stromversurgung: Aktuelle Spannung und Stromaufnahme
 
-zabbix_template_banana_pi_power_supply.xml
+Template: server/zabbix_template_banana_pi_power_supply.xml
 
 # Installation
 ## Zabbix-Agent
@@ -21,6 +22,6 @@ zabbix_template_banana_pi_power_supply.xml
 
 ## Zabbix-Server 
 1. Beide Templates im Zabbix-Server importieren
-2. Templates des Banana-Pi-Host zuweisen
-3. Ltestest Data prüfen
+2. Templates der Banana-Pi-Host zuweisen
+3. Latest Data prüfen
 
