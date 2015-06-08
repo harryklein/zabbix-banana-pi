@@ -5,12 +5,12 @@ Templets zum Überwachen eines Banana-Pi mit Hilfe von Zabbix http://www.zabbix.
 Quelle: http://znil.net/index.php?title=Temperatur_/_Spannung_etc._des_Banana_Pi_selbst_auslesen
 
 ## CPU
-Informationen zum Speed der CPUs und Temperator der CPU
+Informationen zum Speed der CPUs und Temperator der CPU ermitteln
 
 Template: server/zabbix_template_banana_pi_cpu.xml  
 
 ## Spannungsversorgung
-Informationen zur Stromversurgung: Aktuelle Spannung und Stromaufnahme
+Informationen zur Stromversurgung wie aktuelle Spannung und Stromaufnahmeermitteln.
 
 Template: server/zabbix_template_banana_pi_power_supply.xml
 
